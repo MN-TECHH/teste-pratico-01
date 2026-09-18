@@ -8,8 +8,7 @@ O projeto precisa adotar a nova identidade visual "Vertex" e garantir que todos 
 
 - Troca dos ativos visuais (SVG) da marca atual pela marca Vertex.
 - Atualização da configuração central da marca em `src/brand/brand.ts` (nome, tagline).
-- Criação dos testes E2E do Playwright cobrindo todos os cenários das três especificações existentes (`sidebar-navigation`, `brand-identity`, `pdf-watermark`).
-- Os testes serão estruturados logicamente em arquivos separados por domínio (um arquivo por spec).
+- Criação dos testes E2E do Playwright em dois arquivos cobrindo todos os cenários solicitados (`sidebar-navigation.spec.ts` contemplando também `brand-identity`, e `pdf-watermark.spec.ts`).
 
 ## Capabilities
 
