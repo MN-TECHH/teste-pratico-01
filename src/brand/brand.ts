@@ -33,12 +33,12 @@ export interface Brand {
 }
 
 export const brand: Brand = {
-  name: 'Orbita',
+  name: 'Vertex',
   tagline: 'Mini sistema de demonstracao para o teste pratico.',
   logoFull,
   logoIcon,
   watermark,
-  watermarkOpacity: 0.08,
+  watermarkOpacity: 0.12, // Mantido abaixo de 0.15
   watermarkWidthRatio: 0.62,
   watermarkRotation: 30,
 };

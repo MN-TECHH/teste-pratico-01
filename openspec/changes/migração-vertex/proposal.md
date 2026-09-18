@@ -1,0 +1,1 @@
+Proposta: Migrar a identidade visual do sistema de Órbita para Vertex, atualizando os arquivos SVG e as propriedades de opacidade no brand.ts.
