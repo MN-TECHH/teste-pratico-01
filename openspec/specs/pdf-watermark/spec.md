@@ -41,7 +41,7 @@ O PDF gerado SHALL conter o titulo da tela de origem e o conteudo apresentado ne
 
 ### Requirement: Marca d'agua do projeto no PDF
 
-Todo PDF gerado SHALL receber a arte de marca d'agua definida na configuracao da marca, centralizada na pagina, com opacidade baixa que nao prejudique a leitura do conteudo.
+Todo PDF gerado SHALL receber a arte de marca d'agua definida na configuracao da marca, centralizada na pagina, com opacidade baixa que nao prejudique a leitura do conteudo. Apos a migracao, essa arte SHALL ser a marca d'agua monocromatica da Vertex e a opacidade MUST permanecer no maximo em 0,15.
 
 #### Scenario: Marca d'agua em todas as paginas
 
@@ -57,3 +57,8 @@ Todo PDF gerado SHALL receber a arte de marca d'agua definida na configuracao da
 
 - **WHEN** a arte de marca d'agua definida na configuracao da marca e substituida
 - **THEN** os PDFs passam a ser gerados com a nova arte, sem alteracao na rotina de geracao
+
+#### Scenario: Marca d'agua Vertex no PDF
+
+- **WHEN** o usuario gera um PDF apos a migracao de marca
+- **THEN** o documento recebe a arte de marca d'agua da Vertex em opacidade baixa
